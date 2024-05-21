@@ -5,3 +5,10 @@ networks:
       config:
         - subnet: 123.123.0.0/16
 
+volumes:
+  elastic_volume:
+    driver: local
+  kibana_volume:
+    driver: local
+
+
