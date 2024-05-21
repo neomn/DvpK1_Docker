@@ -1,0 +1,7 @@
+networks:
+  elk:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 123.123.0.0/16
+
